@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCO | Terminal Inicial</title>
+    <link rel="icon" type="image/x-icon" href="/Assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body onload=startTimer();>
+    <script>
+        function startTimer(){
+        var tt = setInterval(function() {
+            window.open ('menu.html','_self',false)
+        },20000);
+        }
+
+        function playSound(audioName,loop) {
+            let audio = new Audio(audioName);
+            audio.loot = loop;
+            audio.play();
+        }
+        playSound("Terminal.mp3",true)
+    </script>
+</body>
+</html>
