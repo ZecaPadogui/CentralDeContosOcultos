@@ -1,5 +1,5 @@
 body{
-  background-image: url(/Assets/loading_Screen.gif);
+  background-image: url(loading_Screen.gif);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
